@@ -4,8 +4,7 @@
 
 int main(int argc, char *argv[]) {
 
-    system("chcp 1251");
-    system("cls");
+    system("chcp 65001");
     float a, b, c;
     printf("ax^2 + bx + c = 0\na, b, c : \n");
     scanf(" %f %f %f", &a, &b, &c);
